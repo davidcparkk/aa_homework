@@ -50,7 +50,7 @@ class Board
     elsif @cups[ending_cup_idx].count == 1
       :switch
     else
-    ending_cup_idx
+      ending_cup_idx
     end
 
   end
