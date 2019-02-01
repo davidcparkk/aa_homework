@@ -1,0 +1,15 @@
+<h1>Welcome back, rockstar, sign in and well get you started </h1>
+
+<form action= "<%= session_url %>" method="POST">
+    <input type="hidden" name="authenticity_token" value="form_authenticity_token">
+
+    <label for="email">Enter email:
+        <input type="text" name = "user[email]">
+    </label>
+
+    <label for="password">Enter password:
+        <input type="password" name = "user[password]">
+    </label>
+
+    <input type="submit" value="Sign In">
+</form>
